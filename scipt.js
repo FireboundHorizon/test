@@ -617,3 +617,5 @@ if (min >= 30 && min <= 44) {
 if (min >= 45 && min <= 59) {
 	console.log("4 четверть");
 }
+
+console.log(min);

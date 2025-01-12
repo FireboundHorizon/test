@@ -600,22 +600,539 @@
 
 // console.log(adult);
 
-let min = 10;
+// let min = 10;
 
-if (min >= 0 && min <= 14) {
-	console.log("1 четверть");
-}
+// if (min >= 0 && min <= 14) {
+// 	console.log("1 четверть");
+// }
 
-if (min >= 15 && min <= 29) {
-	console.log("2 четверть");
-}
+// if (min >= 15 && min <= 29) {
+// 	console.log("2 четверть");
+// }
 
-if (min >= 30 && min <= 44) {
-	console.log("3 четверть");
-}
+// if (min >= 30 && min <= 44) {
+// 	console.log("3 четверть");
+// }
 
-if (min >= 45 && min <= 59) {
-	console.log("4 четверть");
-}
+// if (min >= 45 && min <= 59) {
+// 	console.log("4 четверть");
+// }
 
-console.log(min);
+// console.log(min);
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let elem of arr) {
+// 	console.log(elem);
+// }
+// let arr = ["a", "b", "c", "d", "e"];
+
+// for (let elem of arr) {
+// 	console.log(elem);
+// }
+
+// let obj = { a: 1, b: 2, c: 33 };
+
+// for (let key in obj) {
+// 	console.log(obj[key]);
+// }
+
+// let obj = { x: 1, y: 2, z: 3 };
+
+// for (let key in obj) {
+// 	console.log(obj[key]);
+// }
+
+// let i = 0;
+
+// while (i <= 5) {
+// 	console.log(i);
+// 	i++;
+// }
+// let num = 500;
+
+// while (num > 10) {
+// 	num = num / 2;
+// 	console.log(num);
+// }
+
+// console.log(num);
+
+// let num = 1;
+// let i = 0;
+// while (num < 1000) {
+// 	console.log(num);
+// 	i++;
+
+// 	num *= 3;
+// }
+
+// console.log(num);
+// console.log(i);
+
+// for (let i = 0; i <= 10; i++) {
+// 	console.log(i);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+// 	console.log(arr[i]);
+// }
+
+// let arr = [2, 5, 9, 15, 1, 4];
+
+// for (let elem of arr) {
+// 	if (elem > 3 && elem < 10) {
+// 		console.log(elem);
+// 	}
+// }
+
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+
+// for (let key in obj) {
+// 	if (obj[key] % 2 != 0) {
+// 		console.log(obj[key]);
+// 	}
+// }
+
+// let res = 0;
+
+// for (let i = 0; i <= 100; i++) {
+// 	res += i;
+// }
+
+// console.log(res);
+
+// let res = 1;
+
+// for (let i = 1; i <= 21; i++) {
+// 	res *= i;
+// }
+
+// console.log(res);
+
+// let res = 0;
+
+// for (let i = 1; i <= 99; i++) {
+// 	if (i % 2 == 0) {
+// 		res += i;
+// 	}
+// }
+
+// console.log(res);
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let res = 0;
+
+// for (let elem of arr) {
+// 	res += elem;
+// }
+
+// console.log(res);
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 1;
+
+// for (let elem of arr) {
+// 	res *= elem;
+// }
+
+// console.log(res);
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+
+// for (let elem of arr) {
+// 	res += elem ** 2;
+// }
+
+// console.log(res);
+
+// let str = "";
+
+// for (let i = 1; i <= 9; i++) {
+// 	str += "-" + i;
+// 	if (i == 9) {
+// 		str += "-";
+// 	}
+// }
+// console.log(str);
+
+// for (let i = 10; i <= 1000; i++) {
+// 	let str = String(i);
+
+// 	if (str[0] === 1) {
+// 		console.log(i);
+// 	}
+// }
+
+// let arr = [1, 2, 3, 0, 4, 5];
+
+// for (let elem of arr) {
+// 	console.log(elem);
+// 	if (elem === 0) {
+// 		console.log("e");
+// 		break;
+// 	}
+// }
+// let str = "";
+// for (let i = 0; i <= 9; i++) {
+// 	for (let k = 1; k <= 3; k++) {
+// 		str += i;
+// 	}
+// }
+
+// console.log(str);
+
+// let result = "";
+
+// for (let i = 1; i <= 3; i++) {
+// 	for (let j = 1; j <= 3; j++) {
+// 		result += `${i}${j} `;
+// 	}
+// }
+
+// console.log(result);
+
+// for (let i = 0; i <= 9; i++) {
+// 	let num = 1;
+// 	for (let j = 0; j <= 9; j++) {
+// 		num = 3;
+// 	}
+
+// 	console.log(num);
+// }
+// let arr = [];
+
+// for (let i = 0; i < 10; i++) {
+// 	arr.push("x");
+// }
+
+// console.log(arr);
+// let arr1 = [1, 2, 3, 4, 5, 6, 7, -8, 10, -22];
+// let arr2 = [];
+
+// for (let elem of arr1) {
+// 	if (elem > 0) {
+// 		arr2.push(elem);
+// 	}
+// }
+
+// console.log(arr2);
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+// 	arr[i] **= 7;
+// }
+
+// console.log(arr);
+
+// let keys = ["a", "b", "c", "d", "e"];
+// let values = [1, 2, 3, 4, 5];
+
+// let obj = {};
+
+// for (let i = 0; i < keys.length; i++) {
+// 	obj[keys[i]] = values[i];
+// }
+
+// console.log(obj);
+
+// let arr1 = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"];
+// let arr2 = [1, 2, 3, 4, 5, 6, 7];
+
+// let obj = {};
+
+// for (let i = 0; i < arr1.length; i++) {
+// 	obj[arr1[i]] = arr2[i];
+// }
+
+// console.log(obj);
+
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5, g: 10 };
+// let obj2 = {};
+
+// for (let key in obj) {
+// 	if (obj[key] % 2 === 0) {
+// 		obj2[key] = obj[key];
+// 	}
+// }
+
+// console.log(obj2);
+
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+// let obj2 = {};
+
+// for (let key in obj) {
+// 	obj2[obj[key]] = key;
+// }
+
+// console.log(obj2);
+
+// let obj = { a: 1, b: 2, c: 3 };
+
+// for (let key in obj) {
+// 	obj[key] **= 2;
+// }
+
+// console.log(obj);
+
+// let arr = ["a", "b", "c", "d", "e"];
+// let flag = false;
+
+// for (let elem of arr) {
+// 	if (elem === "c") {
+// 		flag = true;
+// 		break;
+// 	}
+// }
+
+// if (flag) {
+// 	console.log("+++");
+// }
+
+// let num = 23;
+// let flag = false;
+
+// for (let i = 2; i < num; i++) {
+// 	if (num % i == 0) {
+// 		flag = true;
+// 	}
+// }
+
+// console.log(flag);
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let sum = 0;
+
+// for (let elem of arr) {
+// 	if (elem % 3 == 0) {
+// 		sum += elem;
+// 	}
+// }
+
+// console.log(sum);
+
+// let arr = [10, 20, 30, 40, 21, 32, 51];
+// let sum = 0;
+// for (let elem of arr) {
+// 	let str = String(elem);
+// 	if (str[0] == 2 || str[0] == 1) {
+// 		sum += Number(str);
+// 	}
+// }
+
+// console.log(sum);
+
+// let arr = ["21", "32", "34", "43", "45", "54", "55"];
+
+// for (let elem of arr) {
+// 	if (Number(elem[0]) - Number(elem[1]) === 1) {
+// 		// console.log("yes");
+// 		console.log(elem);
+// 	}
+// }
+// for (let i = 0; i <= 10; i++) {
+// 	console.log(i);
+// }
+// for (let i = 10; i >= 0; i--) {
+// 	console.log(i);
+// }
+// let res = 0;
+
+// for (let i = 1; i <= 10; i++) {
+// 	res += i;
+// }
+
+// console.log(res);
+
+// let res = 1;
+
+// for (let i = 1; i <= 5; i++) {
+// 	res *= i;
+// }
+
+// console.log(res);
+
+// let arr = [10, 20, 30, 50, 235, 3000];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+// 	console.log(arr[i]);
+// }
+
+// let arr = [10, 20, 30, 50, 235, 3000];
+
+// for (let elem of arr) {
+// 	document.write(`<p>${elem}</p>`);
+// }
+
+// let obj = {
+// 	employee1: 100,
+// 	employee2: 200,
+// 	employee3: 300,
+// 	employee4: 400,
+// 	employee5: 500,
+// 	employee6: 600,
+// 	employee7: 700,
+// };
+
+// for (let key in obj) {
+// 	obj[key] *= 1.1;
+// }
+
+// console.log(obj);
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [6, 7, 8, 9, 10];
+
+// let obj = {};
+
+// for (let i = 0; i < arr1.length; i++) {
+// 	obj[arr1[i]] = arr2[i];
+// }
+
+// console.log(obj);
+
+// let obj = {
+// 	1: 125,
+// 	2: 225,
+// 	3: 128,
+// 	4: 356,
+// 	5: 145,
+// 	6: 281,
+// 	7: 452,
+// };
+
+// let arr = [];
+
+// for (let key in obj) {
+// 	let str = String(obj[key]);
+
+// 	if (str[0] == 1 || str[0] == 2) {
+// 		arr.push(Number(str));
+// 	}
+// }
+
+// console.log(arr);
+
+// let arr = ["a", "b", "c", "d", "e"];
+
+// let obj = {};
+
+// for (let i = 0; i < arr.length; i++) {
+// 	obj[1 + i] = arr[i];
+// }
+
+// console.log(obj);
+
+// let arr = [
+// 	[1, 2, 3, 4, 5],
+// 	[6, 7, 8],
+// 	[9, 10],
+// ];
+
+// let sum = 0;
+
+// for (let subArr of arr) {
+// 	for (let elem of subArr) {
+// 		sum += elem;
+// 	}
+// }
+
+// console.log(sum);
+
+// let arr = [
+// 	[1, 2, 3, 4, 5],
+// 	[6, 7, 8],
+// 	[9, 10],
+// ];
+
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+// 	for (let k = 0; k < arr[i].length; k++) {
+// 		sum += arr[i][k];
+// 	}
+// }
+
+// console.log(sum);
+
+// console.log(Math.pow(2, 10));
+// console.log(Math.sqrt(245));
+
+// let arr = [4, 2, 5, 19, 13, 0, 10];
+// let sum = 0;
+
+// for (let elem of arr) {
+// 	sum += elem ** 3;
+// }
+
+// console.log(Math.sqrt(sum));
+
+// let num = Math.sqrt(379);
+// console.log(num);
+// console.log(num.toFixed(3));
+// console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+// console.log(Math.floor(Math.random() * (100 - 1 + 1) + 1));
+
+// let str = "abcde";
+// // console.log(str.toUpperCase());
+// // console.log(str);
+// // console.log(str.substr(0, 4));
+// // console.log(str.substring(0, 4));
+// // console.log(str.slice(0, 4));
+
+// let str1 = "я учу javascript!";
+// console.log(str1.substr(0, 1));
+// console.log(str1.substring(2, 5));
+// console.log(str1.slice(6, 16));
+
+// let str =
+// 	"https://code.mu/ru/javastscript/bostok/pristme/inbuilt/string/sestarching/";
+
+// // console.log(str.includes("https://"));
+// // let res = str.replace("st", ".");
+// // console.log(res);
+
+// while (str.includes("st")) {
+// 	str.replace("st", "..");
+// }
+// console.log(str);
+// console.log(1);
+
+// let str = "12345";
+// let arr = str.split("");
+// let neww = arr.join("--");
+// console.log(neww);
+// let arr = [1, 3, 4];
+// console.log(arr.shift());
+// console.log(arr.pop());
+// console.log(arr);
+// arr.push(4, 5, 6);
+// console.log(arr);
+// arr.unshift(1);
+// console.log(arr);
+// let arr2 = arr.slice(0, 3);
+// console.log(arr2);
+
+let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+
+let personalMobieDB = {
+	count: numberOfFilms,
+	movies: {},
+	actors: {},
+	genres: [],
+	privat: false,
+};
+
+let a = prompt("Один из последних просмотренных фильмов?", "");
+let b = prompt("На сколько оцените его?", "");
+let c = prompt("Один из последних просмотренных фильмов?", "");
+let d = prompt("На сколько оцените его?", "");
+
+personalMobieDB.movies[a] = b;
+personalMobieDB.movies[c] = d;
+console.log(personalMobieDB);
